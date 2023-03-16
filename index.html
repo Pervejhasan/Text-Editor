@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="image/word-image.svg" />
+    <title>WordFile Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="mt-5">
+      <section
+        class="px-5 py-3 container bg-primary bg-opacity-25 rounded-3 w-md-50 shadow"
+      >
+        <h2 class="text-center fw-bold p-3 text-secondary">My Text Editor</h2>
+        <div class="mx-auto border border-secondary border-2 p-2">
+          <div
+            class="mx-auto border-bottom border-secondary border-2 p-2 d-flex justify-content-between"
+          >
+            <div>
+              <i
+                class="fa-solid fa-bold icon-stlye"
+                id="bold_text"
+                title="Bold&#10;Make your text bold."
+              ></i>
+              <i
+                class="fa-solid fa-italic icon-stlye"
+                id="italic_text"
+                title="Italic&#10;italicize your text."
+              ></i>
+              <i
+                class="fa-solid fa-underline icon-stlye"
+                id="underline_text"
+                title="Underline&#10;Underline your text."
+              ></i>
+            </div>
+
+            <div>
+              <i
+                class="fa-solid fa-align-left icon-stlye"
+                id="left_align"
+                title="Align Left&#10;&#10;Align your content with the left &#10; margin.&#10;&#10; Left alignment is commonly used&#10; for body text and makes the&#10; document easier to read."
+              ></i>
+              <i
+                class="fa-solid fa-align-center icon-stlye"
+                id="center_align"
+                title="Center&#10;&#10;Center your content on the page &#10;center alignment gives documents &#10; a formal appearance and is&#10; often used for cover pages, quotes, &#10;and something heading"
+              ></i>
+              <i
+                class="fa-solid fa-align-right icon-stlye"
+                id="right_align"
+                title="Align Right&#10;&#10;Align  content with the right margin.&#10;&#10; Left alignment is commonly used&#10; for small section of content such as&#10; text in a header or footer"
+              ></i>
+              <i
+                class="fa-solid fa-align-justify icon-stlye"
+                id="justify_align"
+              ></i>
+            </div>
+            <div>
+              <input
+                type="number"
+                name=""
+                id="font-size"
+                value="17"
+                class="px-1 me-1"
+              />
+
+              <select name="" id="text-decoration" class="me-1">
+                <option value="">Aa</option>
+                <option value="uppercase">UPPERCASE</option>
+                <option value="lowercase">lowercase</option>
+                <option value="capitalize">Capitalize Each Word</option>
+              </select>
+
+              <input
+                type="color"
+                name=""
+                id="text_color"
+                class="py-1"
+                value="#285091"
+              />
+            </div>
+          </div>
+          <!--============== text area ================-->
+          <div class="form-floating mt-3">
+            <textarea
+              id="text"
+              class="form-control rounded-1"
+              style="height: 400px"
+            ></textarea>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/6afa902829.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

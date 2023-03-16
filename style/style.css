@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.word-icon {
+  color: #285091;
+}
+#font-size {
+  width: 50px;
+}
+.icon-stlye {
+  padding: 8px;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.icon-stlye:hover {
+  background-color: #1d1d1e27;
+  color: white;
+}
